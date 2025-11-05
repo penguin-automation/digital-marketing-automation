@@ -81,6 +81,7 @@ Puedes hacerlo creando un archivo .env basado en el modelo .env.example incluido
 Este archivo contiene información sensible como claves API o contraseñas — nunca lo subas a GitHub.
 
 # Ejemplo `.env`
+```bash
 SENDER_EMAIL=example@gmail.com
 APP_PASSWORD=abcd efgh ijkl mnop
 GOOGLE_CLIENT_SECRET=path/to/client_secret.json
