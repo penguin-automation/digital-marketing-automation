@@ -1,0 +1,12 @@
+# Ignore sensitive auth files
+scripts/client_secret.json
+scripts/token.json
+
+# Logs & cache
+*.log
+__pycache__/
+*.pyc
+
+# Data temp
+data/email_queue/
+data/reports/*.png
