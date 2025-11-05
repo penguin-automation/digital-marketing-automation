@@ -10,3 +10,8 @@ __pycache__/
 # Data temp
 data/email_queue/
 data/reports/*.png
+
+# Credentials & secrets
+.env
+scripts/client_secret.json
+scripts/token.json
