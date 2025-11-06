@@ -1,0 +1,24 @@
+#!/bin/bash
+set -e
+
+echo "📦 Setting up Digital Marketing Automation CLI..."
+echo "🐍 Creating isolated Python environment..."
+
+INSTALL_DIR="/usr/lib/dma"
+VENV_DIR="$INSTALL_DIR/venv"
+
+# Create venv if not exists
+if [ ! -d "$VENV_DIR" ]; then
+    python3 -m venv "$VENV_DIR"
+fi
+
+# Install dependencies inside venv
+echo "📦 Installing dependencies..."
+"$VENV_DIR/bin/pip" install --upgrade pip
+"$VENV_DIR/bin/pip" install loguru pandas matplotlib reportlab google-auth google-auth-oauthlib google-auth-httplib2
+
+echo "✅ DMA CLI installed successfully!"
+echo "👉 Run with: marketing-cli --help"
+
+exit 0
+
