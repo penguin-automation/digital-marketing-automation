@@ -3,6 +3,9 @@
 Automate your digital marketing tasks directly from Debian Terminal — built entirely using Python, Pandas, and the Gmail API.  
 This project was created by **Akanra (Penguin Automation)** to bring professional marketing workflows into the Linux CLI ecosystem.
 
+![Build Status](https://github.com/penguin-automation/digital-marketing-automation/actions/workflows/build.yml/badge.svg)
+![Version](https://img.shields.io/badge/version-1.0.3-blue)
+![Platform](https://img.shields.io/badge/platform-Debian%20%2F%20Linux-orange)
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-Debian%20CLI-lightgrey?logo=linux&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green)
