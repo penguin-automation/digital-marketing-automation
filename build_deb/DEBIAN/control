@@ -1,5 +1,5 @@
 Package: dma-cli
-Version: 1.0-3
+Version: 1.0-5
 Section: utils
 Priority: optional
 Architecture: all

@@ -4,7 +4,7 @@ Automate your digital marketing tasks directly from Debian Terminal — built en
 This project was created by **Akanra (Penguin Automation)** to bring professional marketing workflows into the Linux CLI ecosystem.
 
 ![Build Status](https://github.com/penguin-automation/digital-marketing-automation/actions/workflows/build.yml/badge.svg)
-![Version](https://img.shields.io/badge/version-1.0.3-blue)
+![Version](https://img.shields.io/badge/version-1.0.5-blue)
 ![Platform](https://img.shields.io/badge/platform-Debian%20%2F%20Linux-orange)
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python&logoColor=white)
 ![Platform](https://img.shields.io/badge/Platform-Debian%20CLI-lightgrey?logo=linux&logoColor=white)
@@ -14,6 +14,7 @@ This project was created by **Akanra (Penguin Automation)** to bring professiona
 ![GitHub last commit](https://img.shields.io/github/last-commit/penguin-automation/digital-marketing-automation)
 ![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 ![Made with ❤️ in Indonesia](https://img.shields.io/badge/Made%20with%20❤️-in%20Indonesia-red)
+🎯 **Current Stable:** [v1.0.5 – Debian Clean Build Certified](https://github.com/penguin-automation/digital-marketing-automation/releases/tag/v1.0.5)
 
 ---
 
