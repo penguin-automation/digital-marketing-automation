@@ -1,5 +1,5 @@
 # 🐧 Digital Marketing Automation CLI – Debian Edition  
-**Version:** v1.0.3 Stable | **Platform:** Debian / Linux | **License:** Open Source
+**Version:** v1.0.5 Stable | **Platform:** Debian / Linux | **License:** Open Source
 
 ![Build Status](https://github.com/penguin-automation/digital-marketing-automation/actions/workflows/build.yml/badge.svg)
 ![Version](https://img.shields.io/badge/version-1.0.5-blue)
