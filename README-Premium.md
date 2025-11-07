@@ -2,7 +2,7 @@
 **Version:** v1.0.3 Stable | **Platform:** Debian / Linux | **License:** Open Source
 
 ![Build Status](https://github.com/penguin-automation/digital-marketing-automation/actions/workflows/build.yml/badge.svg)
-![Version](https://img.shields.io/badge/version-1.0.3-blue)
+![Version](https://img.shields.io/badge/version-1.0.5-blue)
 ![Platform](https://img.shields.io/badge/platform-Debian%20%2F%20Linux-orange)
 ![Status](https://img.shields.io/badge/status-Stable-success)
 
@@ -44,7 +44,7 @@ Aplikasi ini menggunakan Gmail API OAuth2 (bukan SMTP klasik).
  • OAuth2 masih dalam tahap testing approval (Google Developer Console) 
 
 # 🛠 Installation (Local .deb)
-sudo dpkg -i dma-cli_1.0-3.deb
+sudo dpkg -i dma-cli_1.0-5.deb
 sudo systemctl enable dma-cli.timer
 sudo systemctl start dma-cli.timer
 🐧 After installation, the system automatically runs every week through systemd.
@@ -62,16 +62,16 @@ Dibangun 100% via CLI (tanpa GUI tools)
 Diuji lintian — hanya minor warnings (non-blocking)
 Menggunakan virtual environment internal (venv)
 Dirancang untuk Debian 12+ (stable/testing/Sid)
-Seluruh packaging mematuhi Debian Packaging Policy (95%)
+Seluruh packaging mematuhi Debian Packaging Policy (100%)
 
 # 🧰 Build Commands
-dpkg-deb --build build_deb dma-cli_1.0-3.deb
-lintian dma-cli_1.0-3.deb
+dpkg-deb --build build_deb dma-cli_1.0-5.deb
+lintian dma-cli_1.0-5.deb
 
 # 🏷️ Release Info
 | Tag    | Date       | Status   | Notes                                       |
 | ------ | ---------- | -------- | ------------------------------------------- |
-| v1.0.3 | 2025-11-07 | ✅ Stable | Final release verified & uploaded to GitHub |
+| v1.0.5 | 2025-11-07 | ✅ Stable | Final release verified & uploaded to GitHub |
 
 # 💡 Maintainer
  Akanra - 19y/o Open Source Enthusiast & Automation Girl🐧✨
