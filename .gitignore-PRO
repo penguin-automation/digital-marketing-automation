@@ -1,0 +1,14 @@
+echo "
+# Python build
+build/
+dist/
+*.egg-info/
+
+# vscode
+.vscode/
+
+# virtualenv
+venv/
+.env/
+
+" | sudo tee -a .gitignore

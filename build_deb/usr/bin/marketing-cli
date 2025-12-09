@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+export PYTHONPATH="/home/akanra/automation_project/build_deb/usr/lib/python3/dist-packages:$PYTHONPATH"
+exec python3 -m dma.marketing_cli "$@"
+

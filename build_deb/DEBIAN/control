@@ -1,0 +1,14 @@
+Package: dma-cli
+Version: 1.0-10
+Section: utils
+Priority: optional
+Architecture: all
+Maintainer: Akanra <karanva7@gmail.com>
+Depends: python3, python3-pip, python3-venv
+Description: Digital Marketing Automation CLI
+ A lightweight automation system for digital marketing analytics,
+ report generation, and Gmail API integration.
+ This CLI tool supports analytics, visualization, and scheduling
+ in one unified workflow for marketing professionals.
+Homepage: https://github.com/penguin-automation
+

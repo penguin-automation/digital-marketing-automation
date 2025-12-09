@@ -1,0 +1,35 @@
+name: Build & Lint DMA CLI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt || true
+          pip install loguru pandas matplotlib reportlab google-auth google-auth-oauthlib google-auth-httplib2
+
+      - name: Build Debian package (simulation)
+        run: |
+          mkdir -p build_test/DEBIAN
+          echo "Package: dma-cli" > build_test/DEBIAN/control
+          echo "Version: 1.0.3" >> build_test/DEBIAN/control
+          echo "Architecture: all" >> build_test/DEBIAN/control
+          echo "Maintainer: penguin-automation" >> build_test/DEBIAN/control
+          echo "Description: DMA CLI Automated Build Test" >> build_test/DEBIAN/control
+          dpkg-deb --build build_test dma-cli_1.0.3.deb

@@ -1,0 +1,139 @@
+[2025-11-04 10:58:37] to=alya@example.com name=Alya status=OK
+[2025-11-04 10:58:37] to=dion@example.com name=Dion status=OK
+[2025-11-04 10:58:37] to=rina@example.com name=Rina status=OK
+[2025-11-04 10:58:37] to=fikri@example.com name=Fikri status=OK
+[2025-11-04 11:09:14] to=alya@example.com name=Alya status=OK
+[2025-11-04 11:09:14] to=dion@example.com name=Dion status=OK
+[2025-11-04 11:09:14] to=rina@example.com name=Rina status=OK
+[2025-11-04 11:09:14] to=fikri@example.com name=Fikri status=OK
+[2025-11-04 11:12:51] to=alya@example.com name=Alya status=OK
+[2025-11-04 11:12:51] to=dion@example.com name=Dion status=OK
+[2025-11-04 11:12:51] to=rina@example.com name=Rina status=OK
+[2025-11-04 11:12:51] to=fikri@example.com name=Fikri status=OK
+[2025-11-04 11:42:58.649894] Posted to Twitter, LinkedIn
+[2025-11-04 12:12:14] 🚀 Starting daily automation...
+[2025-11-04 12:12:14] 📧 Sending email campaign...
+[2025-11-04 12:12:14] to=alya@example.com name=Alya status=OK
+[2025-11-04 12:12:14] to=dion@example.com name=Dion status=OK
+[2025-11-04 12:12:14] to=rina@example.com name=Rina status=OK
+[2025-11-04 12:12:14] to=fikri@example.com name=Fikri status=OK
+[DRY] Would send to alya@example.com
+✅ alya@example.com (Alya)
+[DRY] Would send to dion@example.com
+✅ dion@example.com (Dion)
+[DRY] Would send to rina@example.com
+✅ rina@example.com (Rina)
+[DRY] Would send to fikri@example.com
+✅ fikri@example.com (Fikri)
+[2025-11-04 12:12:14] 📱 Posting to social media...
+usage: post_to_social.py [-h] [--platforms PLATFORMS [PLATFORMS ...]]
+                         [--dry-run]
+post_to_social.py: error: unrecognized arguments: --simulate
+[2025-11-04 12:12:14] 📊 Running engagement analysis...
+Traceback (most recent call last):
+  File "/home/akanra/automation_project/scripts/analyze_engagement.py", line 32, in <module>
+    main()
+  File "/home/akanra/automation_project/scripts/analyze_engagement.py", line 29, in main
+    analyze_engagement(args.metric)
+  File "/home/akanra/automation_project/scripts/analyze_engagement.py", line 10, in analyze_engagement
+    with open(DATA_PATH, newline="") as csvfile:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../data/engagement_report.csv'
+[2025-11-04 12:12:14] ✅ Workflow completed successfully.
+[2025-11-04 13:52:43] 🚀 Starting daily automation...
+[2025-11-04 13:52:43] 📧 Sending email campaign...
+[2025-11-04 13:52:43] to=alya@example.com name=Alya status=OK
+[2025-11-04 13:52:43] to=dion@example.com name=Dion status=OK
+[2025-11-04 13:52:43] to=rina@example.com name=Rina status=OK
+[2025-11-04 13:52:43] to=fikri@example.com name=Fikri status=OK
+[DRY] Would send to alya@example.com
+✅ alya@example.com (Alya)
+[DRY] Would send to dion@example.com
+✅ dion@example.com (Dion)
+[DRY] Would send to rina@example.com
+✅ rina@example.com (Rina)
+[DRY] Would send to fikri@example.com
+✅ fikri@example.com (Fikri)
+[2025-11-04 13:52:43] 📱 Posting to social media...
+usage: post_to_social.py [-h] [--platforms PLATFORMS [PLATFORMS ...]]
+                         [--dry-run]
+post_to_social.py: error: unrecognized arguments: --simulate
+[2025-11-04 13:52:43] 📊 Running engagement analysis...
+Traceback (most recent call last):
+  File "/home/akanra/automation_project/scripts/analyze_engagement.py", line 32, in <module>
+    main()
+  File "/home/akanra/automation_project/scripts/analyze_engagement.py", line 29, in main
+    analyze_engagement(args.metric)
+  File "/home/akanra/automation_project/scripts/analyze_engagement.py", line 10, in analyze_engagement
+    with open(DATA_PATH, newline="") as csvfile:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../data/engagement_report.csv'
+[2025-11-04 13:52:43] ✅ Workflow completed successfully.
+[2025-11-04 14:25:11] to=alya@example.com name=Alya status=OK
+[2025-11-04 14:25:11] to=dion@example.com name=Dion status=OK
+[2025-11-04 14:25:11] to=rina@example.com name=Rina status=OK
+[2025-11-04 14:25:11] to=fikri@example.com name=Fikri status=OK
+[2025-11-04 14:27:21.800458] Posted to Twitter, LinkedIn
+[2025-11-04 14:33:02] 🚀 Starting daily automation...
+[2025-11-04 14:33:02] 📧 Sending email campaign...
+[2025-11-04 14:33:02] to=alya@example.com name=Alya status=OK
+[2025-11-04 14:33:02] to=dion@example.com name=Dion status=OK
+[2025-11-04 14:33:02] to=rina@example.com name=Rina status=OK
+[2025-11-04 14:33:02] to=fikri@example.com name=Fikri status=OK
+[DRY] Would send to alya@example.com
+✅ alya@example.com (Alya)
+[DRY] Would send to dion@example.com
+✅ dion@example.com (Dion)
+[DRY] Would send to rina@example.com
+✅ rina@example.com (Rina)
+[DRY] Would send to fikri@example.com
+✅ fikri@example.com (Fikri)
+[2025-11-04 14:33:02] 📱 Posting to social media...
+usage: post_to_social.py [-h] [--platforms PLATFORMS [PLATFORMS ...]]
+                         [--dry-run]
+post_to_social.py: error: unrecognized arguments: --simulate
+[2025-11-04 14:33:02] 📊 Running engagement analysis...
+Traceback (most recent call last):
+  File "/home/akanra/automation_project/scripts/analyze_engagement.py", line 32, in <module>
+    main()
+  File "/home/akanra/automation_project/scripts/analyze_engagement.py", line 29, in main
+    analyze_engagement(args.metric)
+  File "/home/akanra/automation_project/scripts/analyze_engagement.py", line 10, in analyze_engagement
+    with open(DATA_PATH, newline="") as csvfile:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../data/engagement_report.csv'
+[2025-11-04 14:33:02] ✅ Workflow completed successfully.
+[2025-11-05 02:22:26] to=alya@example.com name=Alya status=OK
+[2025-11-05 02:22:26] to=dion@example.com name=Dion status=OK
+[2025-11-05 02:22:26] to=rina@example.com name=Rina status=OK
+[2025-11-05 02:22:26] to=fikri@example.com name=Fikri status=OK
+[2025-11-05 02:27:56.091754] Posted to Twitter, LinkedIn
+[2025-11-05 02:29:01] 🚀 Starting daily automation...
+[2025-11-05 02:29:01] 📧 Sending email campaign...
+[2025-11-05 02:29:01] to=alya@example.com name=Alya status=OK
+[2025-11-05 02:29:01] to=dion@example.com name=Dion status=OK
+[2025-11-05 02:29:01] to=rina@example.com name=Rina status=OK
+[2025-11-05 02:29:01] to=fikri@example.com name=Fikri status=OK
+[DRY] Would send to alya@example.com
+✅ alya@example.com (Alya)
+[DRY] Would send to dion@example.com
+✅ dion@example.com (Dion)
+[DRY] Would send to rina@example.com
+✅ rina@example.com (Rina)
+[DRY] Would send to fikri@example.com
+✅ fikri@example.com (Fikri)
+[2025-11-05 02:29:01] 📱 Posting to social media...
+usage: post_to_social.py [-h] [--platforms PLATFORMS [PLATFORMS ...]]
+                         [--dry-run]
+post_to_social.py: error: unrecognized arguments: --simulate
+[2025-11-05 02:29:01] 📊 Running engagement analysis...
+Traceback (most recent call last):
+  File "/home/akanra/automation_project/scripts/analyze_engagement.py", line 32, in <module>
+    main()
+  File "/home/akanra/automation_project/scripts/analyze_engagement.py", line 29, in main
+    analyze_engagement(args.metric)
+  File "/home/akanra/automation_project/scripts/analyze_engagement.py", line 10, in analyze_engagement
+    with open(DATA_PATH, newline="") as csvfile:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../data/engagement_report.csv'
+[2025-11-05 02:29:01] ✅ Workflow completed successfully.

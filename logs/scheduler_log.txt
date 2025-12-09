@@ -1,0 +1,10 @@
+2025-11-04T13:46:37.663609+0700 | INFO | 🚀 Scheduler Digital Marketing dimulai!
+2025-11-04T13:54:03.595314+0700 | INFO | 🚀 Scheduler Digital Marketing dimulai!
+2025-11-04T13:56:53.852251+0700 | INFO | 🚀 Scheduler Digital Marketing dimulai!
+2025-11-04T14:45:52.432103+0700 | INFO | 🚀 Scheduler Digital Marketing dimulai!
+2025-11-04T15:00:22.448991+0700 | INFO | Menjalankan Kirim Email Marketing → scripts/send_email.py
+2025-11-04T15:00:22.638503+0700 | ERROR | Gagal menjalankan Kirim Email Marketing: Command '['python3', '/home/akanra/automation_project/scripts/send_email.py']' returned non-zero exit status 1.
+2025-11-04T15:05:28.136147+0700 | INFO | 🚀 Scheduler Digital Marketing dimulai!
+2025-11-04T16:24:52.339179+0700 | INFO | 🚀 Scheduler Digital Marketing dimulai!
+2025-11-05T02:30:20.244778+0700 | INFO | 🚀 Scheduler Digital Marketing dimulai!
+2025-11-05T02:44:22.073730+0700 | INFO | 🚀 Scheduler Digital Marketing dimulai!

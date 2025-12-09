@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+env/
+venv/
+
+# VSCode
+.vscode/
+.idea/
+
+# Debian build
+build_deb/
+*.deb
+
+# Logs
+logs/*
+!logs/.gitkeep
+
+# Data (very sensitive)
+data/leads.csv
+data/leads2.csv
+data/engagement_report.csv
+data/engagement_report2.csv
+data/email_queue/*
+data/reports/*
+data/*.txt
+data/*.pdf
+
+# Private configs
+*.json
+*.token
+*.credentials
+*.secret
+secrets/
+
+# OS crap
+.DS_Store
+Thumbs.db
+
+# Cache
+*.cache
